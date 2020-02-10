@@ -10,6 +10,7 @@ export class Tab2Page {
 	private temp : number;
 	private signe : number;
 	private vider : number;
+	
 	constructor()
 	{
 		this.resultat = 0;
@@ -26,12 +27,7 @@ export class Tab2Page {
 		this.vider = 0;
 	}
 	
-	signe()
-	{
-		
-	}
-	
-	operation(operateur : int)
+	operation(operateur : number)
 	{
 		this.temp = this.resultat;
 		this.signe = operateur;
@@ -61,11 +57,6 @@ export class Tab2Page {
 			
 			this.resultat = this.resultat + nombre;
 		}
-	}
-	
-	virgule()
-	{
-		
 	}
 	
 	calculer()
